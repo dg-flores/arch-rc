@@ -2,7 +2,7 @@
 
 let mapleader =" " 
 
-"Configuarción básica {{{
+"Configuarción básica/Basic configuration {{{
 	set number
 	set relativenumber
 	set nocompatible
@@ -13,7 +13,7 @@ let mapleader =" "
 	set splitright
 "}}}
 
-"Atajos para navegar en pantallas divididas {{{
+"Atajos para navegar en pantallas divididas/Vsplits shortcuts {{{
 	map <C-h> <C-w>h
 	map <C-j> <C-w>j
 	map <C-k> <C-w>k
