@@ -1,4 +1,4 @@
 # arch-rc
 
-# vimrc:
+# vimrc
   Latex mappings for writing mathematical documents
