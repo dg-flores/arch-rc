@@ -14,7 +14,7 @@ let mapleader =" "
 "	}
 
 "Colores {
-"	colorscheme zazen
+"	colorscheme 
 
 "Para navergar en patalla dividida {
 	map <C-h> <C-w>h
@@ -60,7 +60,8 @@ let mapleader =" "
 "	}
 
 "Biber {
-	autocmd FileType bib inoremap ,art @article{,<Enter><Tab>title<Space>=<Space>"<++>",<Enter><Tab>author<Space>=<Space>"<++>",<Enter><Tab>year<Space>=<Space>"<++>",<Enter><Tab>journal<Space>=<Space>"<++>",<Enter><Tab>volume<Space>=<Space>"<++>",<Enter><Tab>pages<Space>=<Space>"<++>",<Enter><Tab>doi<Space>=<Space>"<++>",<Enter><Tab>}<Enter><Esc>10k$ha
+	autocmd FileType bib inoremap ,art @article{,<Enter><Tab>title<Space>=<Space>"<++>",<Enter><Tab>author<Space>=<Space>"<++>",<Enter><Tab>year<Space>=<Space>"<++>",<Enter><Tab>journal<Space>=<Space>"<++>",<Enter><Tab>volume<Space>=<Space>"<++>",<Enter><Tab>number<Space>=<Space>"<++>",<Enter><Tab>pages<Space>=<Space>"<++>",<Enter><Tab>doi<Space>=<Space>"<++>",<Enter><Tab>}<Enter><Esc>10k$ha
 	autocmd FileType bib inoremap ,bk @book{,<Enter><Tab>title<Space>=<Space>"<++>",<Enter><Tab>author<Space>=<Space>"<++>",<Enter><Tab>year<Space>=<Space>"<++>",<Enter><Tab>publisher<Space>=<Space>"<++>",<Enter><Tab>}<Enter><Esc>6k$ha
 	autocmd FileType bib inoremap ,arx @article{,<Enter><Tab>title<Space>=<Space>"<++>",<Enter><Tab>author<Space>=<Space>"<++>",<Enter><Tab>year<Space>=<Space>"<++>",<Enter><Tab>archivePrefix<Space>=<Space>"<++>",<Enter><Tab>eprint<Space>=<Space>"<++>",<Enter><Tab>}<Enter><Esc>7k$ha
 "	}
+
